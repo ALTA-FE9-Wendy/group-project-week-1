@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700:800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --main-color: #19345E;
+    --second-color: #F47522;
+    --third-color: #FFFFFF;
+
+
+    --main-font: 'Roboto', sans-serif;
+    --second-font: 'Montserrat', sans-serif;
+    --line-font: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--body-color);
+    font-family: var(--main-font);
+    overflow-x: hidden
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+    box-shadow: 0px 3px 6px #C1C3C736;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    z-index: 9;
+}
+
+.navbar-alta .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    color: var(--main-color);
+    font-family: var(--second-font);
+    font-weight: 700;
+}
+
+.nav-item:hover {
+    color: var(--second-color);
+}
+
+.navbar-alta .navbar-nav {
+    gap: 18px;
+}
+
+.btn-contact {
+    font-family: var(--second-font);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--second-color);
+    background-color: var(--third-color);
+    border: 1px solid var(--second-color);
+    border-radius: 50px;
+    padding: 8px 38px 8px 38px;
+}
+
+.btn-contact:hover {
+    font-family: var(--second-font);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--third-color);
+    background-color: var(--second-color);
+    border: 1px solid var(--third-color);
+    border-radius: 50px;
+    padding: 8px 38px 8px 38px;
+}
+
+.btn-contact-v2 {
+    font-family: var(--second-font);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--third-color);
+    background-color: var(--second-color);
+    border: 1px solid var(--third-color);
+    border-radius: 50px;
+    padding: 8px 38px 8px 38px;
+}
+
+.btn-contact-v2:hover {
+    font-family: var(--second-font);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--second-color);
+    background-color: var(--third-color);
+    border: 1px solid var(--second-color);
+    border-radius: 50px;
+    padding: 8px 38px 8px 38px;
+}
+
+/* INDEX-SECTION-1 */
+
+.alta-home {
+    padding: 160px;
+    background-color: #EDF6FF;
+    margin-top: 90px;
+}
+
+.alta-team .content-header {
+    margin-top: 60px;
+}
+
+.team-content .content-profile h3 {
+    font-family: var(--second-font);
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+
+.team-content .profile-text pre {
+    font-family: var(--line-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--main-color);
+    margin-left: 60px;
+}
+
+.team-content .profile-text pre a {
+    font-family: var(--line-font);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.content-experience {
+    margin-top: 50px;
+}
+
+.content-experience h4 {
+    font-family: var(--second-font);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+
+.content-experience .list {
+    font-family: var(--line-font);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.content-experience .list li {
+    margin-bottom: 20px;
+}
+
+.alta-home .profile-home h2 {
+    font-family: var(--second-font);
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--main-color);
+}
+
+.alta-home .profile-home h1 {
+    font-family: var(--main-font);
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-top: 14px;
+}
+
+.alta-home .profile-home span {
+    font-family: var(--main-font);
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--second-color);
+}
+
+.alta-home .profile-home p {
+    font-family: var(--second-font);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-top: 14px;
+}
+
+.btn-home {
+    font-family: var(--second-font);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--third-color);
+    background-color: var(--second-color);
+    border-radius: 50px;
+    border: none;
+    padding: 8px 40px 8px 40px;
+    margin-top: 8px;
+}
+
+/* INDEX-SECTION-1-STATUS */
+
+.status-alta .row {
+    background-color: #FFFFFF;
+    margin: 0px 210px 60px 210px;
+    padding: 30px 90px 30px 90px;
+    border: none;
+    box-shadow: 0px 3px 6px #48474729;
+    border-radius: 100px;
+}
+
+.status-alta .status-text h5 {
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.status-alta .status-text p {
+    font-family: var(--second-font);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--main-color);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* INDEX-SECTION-2 */
+
+.about-background {
+    background-image: url("../img/bg-about.jpg");
+    background-size: cover;
+    padding: 145px 245px 145px 245px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about-content {
+    font-family: var(--line-font);
+    color: var(--third-color);
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+/* INDEX-SECTION-3 */
+
+.btn-team {
+    font-family: var(--second-font);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    color: var(--main-color);
+    background-color: #FFFFFF;
+    margin-right: 210px;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.content-header h1 {
+    font-family: var(--second-font);
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.team-alta .p {
+    font-family: var(--second-font);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--main-color);
+    text-align: center;
+}
+
+#team-alta-id {
+    background-image: url('img/batik-img.png');
+    background-repeat: no-repeat;
+    background-size: 12%;
+}
+
+
+.team-content {
+    margin-top: 60px;
+}
+
+.team-content .team-profile h3 {
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--second-color);
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.team-content .team-profile p {
+    font-family: var(--line-font);
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.divider-team {
+    margin-top: 30px;
+    width: 910px;
+    border: 1px dashed #AAAAAA;
+}
+
+.divider {
+    width: 35px;
+    border: 2px solid #F47522;
+    background-color: #F47522;
+}
+
+.divider-status {
+    margin-left: 30px;
+    height: 40px;
+    border: 0.5px solid #D0D0D0;
+}
+
+.about-alta .about-background {
+    background-image: url("../img/bg-about.jpg");
+    background-size: cover;
+    padding: 145px 245px 145px 245px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about-content {
+    font-family: var(--line-font);
+    color: var(--third-color);
+    margin-top: 20px;
+}
+
+.blog-divider {
+    margin-top: 100px;
+    padding: 60px 60px 0px 60px;
+}
+
+.blog-img {
+    margin-top: 60px;
+    /* margin-bottom: 60px; */
+}
+
+.blog-content {
+    padding: 100px;
+}
+
+.blog-title {
+    font-family: var(--second-font);
+    color: var(--main-color);
+    font-size: 50px;
+    padding: 20px;
+}
+
+.blog-subtitle {
+    font-family: var(--second-font);
+    color: var(--main-color);
+    font-size: 20px;
+    padding: 20px;
+}
+
+.blog-line {
+    font-family: var(--line-font);
+    color: var(--main-color);
+    padding: 20px;
+}
+
+.blogs-alta .content-header {
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+
+/* .blogs-alta .card {
+    border: none;
+} */
+
+/* CONTACT */
+
+.form-main {
+    color: #19345E;
+    font-family: var(--line-font);
+    font-size: 16px;
+}
+
+.form-title {
+    word-wrap: break-word;
+    width: 75%;
+}
+
+.form-label {
+    margin: 10px 10px 10px 0px;
+}
+
+.form-control {
+    width: 75%;
+    height: 50px;
+    size: 50px;
+}
+
+@media (max-width: 991.98px) {
+    .form-main {
+        margin-left: 40px;
+    }
+
+    .form-title {
+        text-align: center;
+    }
+}
+
+
+.message-content {
+    height: 180px;
+}
+
+.contact-details {
+    color: var(--main-color);
+    font-family: var(--line-font);
+}
+
+#alert-text {
+    margin-top: 24px;
+    display: none;
+    width: fit-content;
+    animation: fadeIn 1s;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'consolas';
+    color: #20c20e;
+    background-color: black;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* .contact-label {} */
+
+.contact-content {
+    padding: 16px;
+}
+
+.icon-contact {
+    width: 20px;
+    height: 20px
+}
+
+/* ABOUT-PAGE */
+
+.main-image {
+
+    padding: 60px;
+}
+
+.about-icon {
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: #F47522;
+    padding: 10px;
+    border: 1px solid var(--third-color);
+    border-radius: 50px;
+}
+
+
+/* FOOTER */
+
+.footer-alta {
+    margin-top: 100px;
+    background-color: var(--main-color);
+    padding-left: 45px;
+}
+
+.footer-alta .social .list {
+    display: flex;
+    list-style: none;
+}
+
+.footer-alta .footer-logo img {
+    width: 120px;
+}
+
+.footer-alta {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-alta .social p {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.footer-alta .social .list {
+    color: #FFFFFF;
+    padding-left: 0px;
+    gap: 18px;
+}
+
+.footer-alta .footer-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+/* Page About CSS */
+
+.subheader-about h3 {
+    font-family: var(--second-font);
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.about-profile h5 {
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-bottom: 12px;
+}
+
+.about-profile p {
+    font-family: var(--second-font);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--main-color);
+    margin-bottom: 80px;
+}
+
+.batik-image {
+    z-index: -1;
+    display: inline;
+}
