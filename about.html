@@ -11,35 +11,40 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid px-5 navbar-alta">
-            <a class="navbar-brand" href="index.html">
-              <img src="../group-project-week-1/assets/logo-ALTA@2x.png" style="height: 80px;margin-left: 120px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active"  href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="features.html">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" style="color: #F47522;" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"  href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+          <img class="logo" src="assets/logo-ALTA@2x.png" alt="logo-alta" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="features.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+      <!-- end navbar -->
 
     <section class="container-fluid about-container-1">
         <div class="about-container-1A">
@@ -218,6 +223,59 @@
 
     </section>
 
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img class="logo-footer" src="assets/logo-ALTA-v2@2x.png" alt="" />
+              <h5>About Alterra Academy</h5>
+              <p>
+                Alterra Academy is HubSpot Theme Based On Engagement Design
+                Framework, designed & developed by Openthrive.
+              </p>
+              <button class="btn">
+                Button Next <i class="fa-solid fa-arrow-right-long"></i>
+              </button>
+            </div>
+            <div class="col-6">
+              <div class="menu-list">
+                <ul>
+                  <li>Contact</li>
+                  <li>Career</li>
+                  <li>Privacy Plocy</li>
+                  <li>Terms Of Services</li>
+                  <li>GDPR</li>
+                  <li>FAQs</li>
+                </ul>
+                <ul>
+                  <li>Blog</li>
+                  <li>Capabilities</li>
+                  <li>Resource</li>
+                  <li>Partnership</li>
+                  <li>Integration</li>
+                </ul>
+              </div>
+            </div>
+  
+            <!-- Force next columns to break to new line at md breakpoint and up -->
+            <div class="w-100 d-none d-md-block m-3 line"></div>
+  
+            <div class="col-6">
+              <p class="m-2">
+                B2B website and engagement design solution that transform
+                marketing and sales performance like never before.
+              </p>
+            </div>
+            <div class="col-6">
+              <div class="m-2 d-flex justify-content-end">
+                <p>&copy; 2015-2022 Alterra Academy. All right reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 <script src="assets/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
