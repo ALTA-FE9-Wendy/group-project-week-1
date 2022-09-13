@@ -136,9 +136,55 @@ body {
 }
 
 .about-icon {
-    width: 30px;
-    padding: 32px;
+    width: 50px;
+    height: 50px;
 }
+
+.card {
+    padding: 35px;
+}
+
+.about-container-3 {
+    padding: 122px 10vw 150px 10vw;
+}
+.about-container-3A {
+    font-size: 52px;
+    font-weight: 700;
+}
+/* benefit */
+.column {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+  }
+  .icons {
+    width: 2rem;
+    height: 2rem;
+  }
+  .icon-duotone {
+    width: 4rem;
+    height: 4rem;
+    background: #e7ebfc;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-column h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #19345e;
+  }
+  /* --------benefit/section2----- */
+
+.about-container-4 {
+    padding: 122px 10vw 150px 10vw;
+}
+
+.arrow-carousel {
+    text-align: right;
+}
+
 
 .about-container-5 {
     padding: 122px 10vw 150px 10vw;
