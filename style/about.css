@@ -24,6 +24,7 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
+
 /* ------navbar------------- */
 
 .nav-link {
@@ -31,14 +32,16 @@ body {
     font-weight: 500;
     color: #1e1e1e;
     line-height: 1.5rem;
-  }
-  .nav-link:hover {
+}
+
+.nav-link:hover {
     color: #19345e;
-  }
-  .logo {
+}
+
+.logo {
     max-width: 10vw;
-  }
-  
+}
+
 /* NAVBAR */
 
 /* .navbar {
@@ -122,7 +125,7 @@ body {
 
 .about-container-2 {
     background-color: #E7EBFC;
-    padding: 122px 165px  150px 165px;
+    padding: 122px 165px 150px 165px;
 }
 
 .about-container-2A {
@@ -134,8 +137,43 @@ body {
 }
 
 .about-icon {
-    width:30px;
+    width: 30px;
     padding: 32px;
+}
+
+.about-container-5 {
+    padding: 122px 165px 150px 165px;
+}
+
+.card-body  {
+    padding-left: 0;
+}
+
+.card-icon {
+    height: 32px;
+    margin-right: 8px;
+    background-color: #E7EBFC;
+    padding: 8px;
+    border: 1px solid var(--third-color);
+    border-radius: 50px;
+}
+
+.about-container-6 {
+    background-color: #E7EBFC;
+    padding-top: 103px;
+    padding-bottom: 103px;
+}
+
+.divider {
+    width: 80vw;
+    border: 1px solid #B4B4B4;
+    background-color: #B4B4B4;
+}
+
+.logo-perusahaan {
+    padding: 20px;
+    width: auto;
+    height: 70px;
 }
 
 /* -------footer------------ */
@@ -143,40 +181,48 @@ footer {
     background: #19345e;
     color: #fff;
     padding: 1rem 0rem;
-  }
-  h5 {
+}
+
+h5 {
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-  p {
+}
+
+p {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
     max-width: 30vw;
-  }
-  .btn {
+}
+
+.btn {
     color: #fff;
     padding-left: 0;
-  }
-  .logo-footer {
+}
+
+.logo-footer {
     max-width: 10vw;
     margin-bottom: 1rem;
-  }
-  .menu-list {
+}
+
+.menu-list {
     margin-top: 6rem;
-  }
-  ul {
+}
+
+ul {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-  }
-  li {
+}
+
+li {
     list-style: none;
     padding-left: 1rem;
-  }
-  .line {
+}
+
+.line {
     border-bottom: 1px solid #fff;
     mix-blend-mode: normal;
     opacity: 0.08;
-  }
+}
