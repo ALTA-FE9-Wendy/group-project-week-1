@@ -75,8 +75,7 @@ body {
 
 .about-container-1 {
     background-color: #E7EBFC;
-    padding: 160px;
-    margin-top: 80px;
+    padding: 160px 10vw 160px 10vw;
 }
 
 .about-container-1A {
@@ -125,7 +124,7 @@ body {
 
 .about-container-2 {
     background-color: #E7EBFC;
-    padding: 122px 165px 150px 165px;
+    padding: 122px 10vw 150px 10vw;
 }
 
 .about-container-2A {
@@ -142,7 +141,7 @@ body {
 }
 
 .about-container-5 {
-    padding: 122px 165px 150px 165px;
+    padding: 122px 10vw 150px 10vw;
 }
 
 .card-body  {
@@ -160,8 +159,7 @@ body {
 
 .about-container-6 {
     background-color: #E7EBFC;
-    padding-top: 103px;
-    padding-bottom: 103px;
+    padding: 122px 10vw 150px 10vw;
 }
 
 .divider {
