@@ -1,29 +1,22 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style/contact.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>About | Alterra Academy</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style/contact.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>About | Alterra Academy</title>
 </head>
 
 <body>
-<!-- navbar -->
-<nav class="navbar navbar-expand-lg bg-light fixed-top">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container">
       <img class="logo" src="assets/logo-ALTA@2x.png" alt="logo-alta" />
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -46,8 +39,82 @@
   </nav>
   <!-- end navbar -->
 
-<!-- footer -->
-<footer>
+  <section class="container-fluid about-container-1 row">
+    <div class="col-sm-6 col-12">
+      <div class="about-container-1A">
+        Contact Us
+      </div>
+      <div class="about-container-1B">
+        If you have any questions about the subscription <br>
+         or are not sure which plan is right for you, contact <br>
+         our team and let’s schedule a call.
+      </div>
+      <button type="button" class="btn-about" onclick="location.href='index.html';">
+        <p class="btn-about-text">Explore More About This →</p>
+    </button>
+    <button type="button" class="btn-about" onclick="location.href='index.html';">
+      <p class="btn-about-text">Explore More About This →</p>
+  </button>
+    </div>
+    <div class="col-sm-6 col-12 contact-form">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+      </form>
+    </div>
+    
+
+</section>
+
+  <section class="container-fluid about-container-2">
+    <div class="row justify-content-center">
+      <div class="col-sm-6 col-12 about-container-2A">
+        Our Offices
+      </div>
+      <div class="col-sm-6 about-container-2A-muted">
+        Amazing cities, totally tricked out offices. <br>
+        Explore the world of Tweakful.
+      </div>
+    </div>
+    
+    <div class="row justify-content-center">
+      <div class="col-sm-6 col-12 py-3" data-aos="fade-up" data-aos-duration="1000">
+        <div class="card border-0">
+          <img src="../group-project-week-1/assets/img_blog.jpg" alt="icon" class="about-icon">
+          <br>
+          <div class="card-body" style="color:#19345E;">
+            <h5 class="card-title"><strong>Mobile Application</strong></h5>
+            <p class="card-text">
+              Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.
+            </p>
+            <div class="card-link">
+              <a href="#" style="text-decoration: none; color: #19345E;">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-12 py-3" data-aos="fade-up" data-aos-duration="1000">
+        <div class="card border-0">
+          <img src="../group-project-week-1/assets/img_article.jpg" alt="icon" class="about-icon">
+          <br>
+          <div class="card-body" style="color:#19345E;">
+            <h5 class="card-title"><strong>Mobile Application</strong></h5>
+            <p class="card-text">
+              Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat.
+            </p>
+            <div class="card-link">
+              <a href="#" style="text-decoration: none; color: #19345E;">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+ 
+  <!-- footer -->
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -103,7 +170,7 @@
 <script src="assets/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-    AOS.init();
+  AOS.init();
 </script>
 
 </html>
