@@ -118,7 +118,7 @@ p {
 }
 .CTA p {
   width: 20vw;
-  margin-left: 1.5rem;
+
   font-size: var(--font-size-p-biasa);
   line-height: var(--line-height-p-biasa);
 }
@@ -225,6 +225,7 @@ p {
   position: relative;
   margin-right: 1rem;
 }
+
 /* ------------end timeline----- */
 /* ---closing-------- */
 .closing {
