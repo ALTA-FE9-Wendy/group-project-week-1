@@ -28,6 +28,7 @@ body {
 .about-container-1 {
   background-color: #E7EBFC;
   padding: 160px 10vw 160px 10vw;
+  margin: 0;
 }
 
 .about-container-1A {
@@ -61,11 +62,16 @@ body {
   font-weight: 400;
 }
 
+.button-group {
+  margin: 0;
+}
+
 .btn-about {
   margin-top: 36px;
   background-color: #19345E;
   border: none;
   color: #ffffff;
+  margin-right: 50px;
 }
 
 .btn-about-alt {
@@ -73,22 +79,13 @@ body {
   background-color: white;
   border-color: #19345E;
   color:#19345E;
-  
+  padding:0;
 }
 
 .btn-about-text {
-  padding: 15px 25px 0px 25px;
+  padding: 15px 15px 15px 15px;
   font-size: 14px;
   font-weight: 400;
-  white-space:nowrap;
-  margin:0;
-}
-
-.btn-about-text2 {
-  font-size: 14px;
-  padding: 0px 25px 15px 25px;
-  font-weight: 400;
-  white-space:nowrap;
   margin:0;
 }
 
@@ -134,6 +131,22 @@ font-weight: 600;
   color: #969696;
   font-size: 18px;
   font-weight: 400;
+  width: 100%;
+}
+
+#form-message {
+  height:122px;
+}
+
+.form-control, .form-select{
+  height: 52px;
+}
+
+.btn-form-text {
+  color: #ffffff;
+  padding: 15px 25px 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .about-container-2 {
