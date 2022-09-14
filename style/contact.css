@@ -65,14 +65,33 @@ body {
   margin-top: 36px;
   background-color: #19345E;
   border: none;
+  color: #ffffff;
+}
+
+.btn-about-alt {
+  margin-top: 36px;
+  background-color: white;
+  border-color: #19345E;
+  color:#19345E;
+  
 }
 
 .btn-about-text {
-  color: #ffffff;
   padding: 15px 25px 0px 25px;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
+  white-space:nowrap;
+  margin:0;
 }
+
+.btn-about-text2 {
+  font-size: 14px;
+  padding: 0px 25px 15px 25px;
+  font-weight: 400;
+  white-space:nowrap;
+  margin:0;
+}
+
 .about-container-1B {
   font-size: 24px;
   font-weight: 400;
@@ -80,8 +99,41 @@ body {
   margin-top: 31px;
 }
 
+.logo-perusahaan {
+  padding: 20px;
+  width: auto;
+  height: 60px;
+}
+
 .contact-form {
   align-items: center;
+}
+
+.form-section {
+  background-color: #FFFFFF;
+  padding: 30px;
+  max-width: 90%;
+  align-items: center;
+  margin: 0;
+}
+
+.btn-form {
+  margin-top: 36px;
+  background-color: #19345E;
+  border: none;
+  width: 100%;
+}
+
+.lets-talk {
+color: #19345E;
+font-size: 28px;
+font-weight: 600;
+}
+
+.lets-talk-text {
+  color: #969696;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .about-container-2 {
