@@ -70,7 +70,7 @@ h5 {
 /* ----section hero-------- */
 .hero {
   padding: 10rem 0rem;
-  /* background: var(--background-second); */
+  background: var(--background-second);
 }
 .content h1 {
   font-weight: 700;
@@ -97,7 +97,7 @@ h5 {
   color: #fff;
   font-size: var(--font-size-p-biasa);
   width: 18vw;
-  height: 10vh;
+  height: 9vh;
   padding: 5px;
 }
 
