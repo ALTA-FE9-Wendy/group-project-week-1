@@ -55,13 +55,13 @@ h5 {
   background-color: #fff;
 }
 .nav-link {
-  font-size: 1rem;
+  font-size: var(--font-size-p-biasa);
   font-weight: 500;
-  color: #1e1e1e;
-  line-height: 1.5rem;
+  color: var(--text-color);
+  line-height: var(--line-height-p-biasa);
 }
 .nav-link:hover {
-  color: #19345e;
+  color: var(--main-color);
 }
 .logo-navbar {
   max-width: 10vw;
@@ -69,8 +69,8 @@ h5 {
 }
 /* ----section hero-------- */
 .hero {
-  padding: 12rem 0rem;
-  background: var(--background-second);
+  padding: 10rem 0rem;
+  /* background: var(--background-second); */
 }
 .content h1 {
   font-weight: 700;
@@ -86,8 +86,8 @@ h5 {
   color: var(--text-color);
 }
 .profile-png {
-  width: 4vw;
-  height: 9vh;
+  width: 80px;
+  height: 80px;
 }
 .btn {
   align-items: center;
@@ -96,8 +96,8 @@ h5 {
   background: #19345e;
   color: #fff;
   font-size: var(--font-size-p-biasa);
-  width: 15vw;
-  height: 8vh;
+  width: 18vw;
+  height: 10vh;
   padding: 5px;
 }
 
@@ -144,15 +144,14 @@ h5 {
   width: 15vw;
   top: 20px;
 } */
-.gbr-left {
-  width: 25vw;
-  height: 68vh;
+.gbr-text img {
+  aspect-ratio: 0.8;
+  width: 60%;
   object-fit: cover;
-  background: #19345e;
-  mix-blend-mode: normal;
-  opacity: 0.8;
   border-radius: 3px;
+  opacity: 0.8;
 }
+
 .content-section-headline p {
   font-size: var(--font-size-p-content);
   color: var(--text-color);
@@ -174,11 +173,17 @@ a {
   margin-bottom: 1rem;
 }
 .icon-fitur {
-  width: 2vw;
-  height: 4.5vh;
+  width: 25px;
+  height: 25px;
 }
 .column {
   margin-right: 6rem;
+}
+.gbr-fitur img {
+  aspect-ratio: 0.9;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 3px;
 }
 /* ---end fitur-- */
 
@@ -186,42 +191,39 @@ a {
 .cards {
   padding: 8rem 0rem;
 }
+
 .sub-title h4 {
   font-weight: 400;
 }
-.icon-arrow {
-  width: 2vw;
-  height: 4.5vh;
+.icons {
+  width: 30px;
+  height: 30px;
 }
 .arrow {
+  margin-top: 14rem;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
 }
-.arrow-back {
-  width: 3vw;
-  height: 7vh;
-  background: var(--background-second);
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-.arrow-foward {
-  width: 3vw;
-  height: 7vh;
-  background: var(--background-second);
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .card-body {
   padding: 1rem 0rem;
+}
+.main-color {
+  background: var(--background-second);
+  height: 50px;
+  width: 50px;
+  display: flex; /* displays flex-items (children) inline */
+  justify-content: center; /* horizontally centered */
+  align-items: center; /* vertically centered */
 }
 
 /* ---end card-- */
 /* ---doodle--- */
 .gbr-doodle {
-  width: 20vw;
-  height: 30vh;
+  aspect-ratio: 1;
+  width: 60%;
+  object-fit: cover;
 }
 /* --end doodle */
 
@@ -246,7 +248,7 @@ a {
   margin-left: 4rem;
 }
 .logo-perusahaan {
-  width: 10%;
+  max-width: 10vw;
   height: auto;
 }
 /* -------footer------------ */
@@ -297,4 +299,127 @@ li {
   border-bottom: 1px solid #fff;
   mix-blend-mode: normal;
   opacity: 0.08;
+}
+
+/* ------RESPONSIVE---- */
+/* ------tablets------------ */
+@media screen and (max-width: 922px) {
+  .content h1 {
+    font-size: var(--font-size-h3);
+    line-height: 3.5rem;
+  }
+  .content p {
+    font-size: var(--font-size-h5);
+  }
+  .btn {
+    font-size: 0.85rem;
+    width: 25vw;
+    height: 5vh;
+  }
+  h2 {
+    font-size: var(--font-size-h3);
+    line-height: 3.5rem;
+  }
+  h4 {
+    font-size: var(--font-size-h5);
+    font-weight: 700;
+  }
+  p {
+    font-size: 0.85rem;
+  }
+  .section-title h3 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--third-color);
+  }
+  .section-title p {
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+  }
+  .garis-vertical {
+    border: none;
+  }
+  .logo-perusahaan {
+    max-width: 15vw;
+    height: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .content h1 {
+    font-size: 2.25rem; /* 36px */
+    line-height: 3rem; /* 40px */
+  }
+  .content p {
+    font-size: var(--font-size-p-biasa);
+    line-height: 1.5rem;
+  }
+  h2 {
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+  }
+  h4 {
+    font-size: var(--font-size-h5);
+  }
+  .section-title h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--third-color);
+  }
+  .content-section-headline p {
+    font-size: var(--font-size-p-biasa);
+    line-height: 1.5rem;
+  }
+  a {
+    text-decoration: none;
+    font-size: var(--font-size-p-biasa);
+  }
+  .paragraf-h5 {
+    font-size: var(--font-size-h5);
+    line-height: var(--line-height-h5);
+    margin: 0;
+    width: 100%;
+  }
+  .arrow {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+  }
+  .logo-perusahaan {
+    max-width: 24vw;
+    height: auto;
+  }
+  .gbr-doodle {
+    aspect-ratio: 1;
+    width: 40%;
+    object-fit: cover;
+  }
+  .btn {
+    font-size: 0.75rem;
+    width: 48vw;
+    height: 5vh;
+  }
+  .logo-navbar {
+    max-width: 19vw;
+    height: auto;
+  }
+  .logo-footer {
+    max-width: 19vw;
+    margin-bottom: 1rem;
+  }
+  .text-footer {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column wrap-reverse;
+  }
+  li {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+  }
 }

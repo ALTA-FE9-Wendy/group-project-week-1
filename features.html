@@ -16,7 +16,7 @@
 
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <img
           class="logo-navbar"
@@ -59,11 +59,11 @@
         <div class="row">
           <div class="col-md-9">
             <div class="content">
-              <h1 class="mb-5">
+              <h1 class="mb-3 mb-md-4">
                 We have created a big library of illustrations with custom style
                 and action types.
               </h1>
-              <p class="mb-5">
+              <p class="mb-5 mb-md-4">
                 “E-commerce Illustration Pack collects different ways to do
                 quick shopping, pay in a second, and get all those stuff you
                 need. There are smart delivery and polite service in the scenes.
@@ -72,19 +72,25 @@
             </div>
           </div>
           <div class="col-md-9 mb-3">
-            <div class="profile d-flex gap-2">
-              <img
-                class="profile-png"
-                src="assets/portrait_oval.png"
-                alt="profile-png"
-              />
-              <div class="desc-profile">
-                <p>Jesica Kumari</p>
-                <p>CEO Of Acme Limited</p>
+            <div class="row">
+              <div class="col-3 col-xs-3 col-md-2">
+                <div class="col-sm-3 offset-sm-4 col-md-6 offset-md-0">
+                  <img
+                    class="profile-png rounded-circle"
+                    src="assets/portrait_oval.png"
+                    alt="profile-png"
+                  />
+                </div>
+              </div>
+              <div class="col-9 col-xs-9 col-md-10">
+                <div class="desc-profile">
+                  <p class="fw-bold mb-2">Jesica Kumari</p>
+                  <p>CEO Of Acme Limited</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-9">
+          <div class="col-12 col-md-9 col-sm-8">
             <button type="button" class="btn btn-lg px-2 mt-2">
               Explore More About This
               <i class="fa-solid fa-arrow-right-long"></i>
@@ -104,7 +110,7 @@
             </div>
           </div>
           <div class="row text-center">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 mb-3">
               <div class="text-desc">
                 <h2>5</h2>
                 <p>Service Geographics</p>
@@ -139,13 +145,12 @@
     <section class="headline">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <div class="gbr-text">
-              <img class="gbr-left" src="assets/stock_photo.jpg" alt="" />
-              <p>Video store with 10 samples on 20 min</p>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="gbr-text mb-md-4 mb-4">
+              <img src="assets/stock_photo.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="content-section-headline">
               <h2 class="mb-4">
                 Headline of Modern and Digital Lending Platform In a Few Seconds
@@ -166,15 +171,18 @@
       </div>
     </section>
     <!-- end section headline -->
+    <!-- fitur -->
     <section class="fitur">
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <img src="assets/Rectangle.png" alt="" />
+            <div class="gbr-fitur">
+              <img src="assets/Rectangle.png" alt="" />
+            </div>
           </div>
-          <div class="col-md-7 order-first">
+          <div class="col-md-7 order-first mb-sm-5 mb-5">
             <div class="row">
-              <div class="col-6 col-sm-4 column mb-4">
+              <div class="col-6 col-md-6 col-sm-4">
                 <div class="icon">
                   <img class="icon-fitur" src="assets/icon_grid.png" alt="" />
                 </div>
@@ -186,7 +194,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-6 col-sm-4">
+              <div class="col-6 col-md-6 col-sm-4">
                 <div class="icon">
                   <img class="icon-fitur" src="assets/icon_layers.png" alt="" />
                 </div>
@@ -200,7 +208,7 @@
               </div>
               <div class="w-100 d-none d-md-block"></div>
 
-              <div class="col-6 col-sm-4 column mb-4">
+              <div class="col-6 col-md-6 col-sm-4">
                 <div class="icon">
                   <img class="icon-fitur" src="assets/icon_heart.png" alt="" />
                 </div>
@@ -212,7 +220,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-6 col-sm-4">
+              <div class="col-6 col-md-6 col-sm-4">
                 <div class="icon">
                   <img class="icon-fitur" src="assets/icon_star.png" alt="" />
                 </div>
@@ -227,7 +235,7 @@
               </div>
               <div class="w-100 d-none d-md-block"></div>
 
-              <div class="col-6 col-sm-4 column">
+              <div class="col-6 col-md-6 col-sm-4">
                 <div class="icon">
                   <img class="icon-fitur" src="assets/icon_flash.png" alt="" />
                 </div>
@@ -240,7 +248,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-6 col-sm-4">
+              <div class="col-6 col-md-6 col-sm-4">
                 <div class="icon">
                   <img class="icon-fitur" src="assets/icon_heart.png" alt="" />
                 </div>
@@ -272,31 +280,40 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-9 col-sm-9">
             <h2 class="mb-5">
               Nowadays, it isn’t uncommon to see lenders rapidly adopting a
               digital lending strategy to streamline
             </h2>
           </div>
-          <div class="col-md-4">
-            <div class="arrow d-flex gap-3 justify-content-end">
-              <div class="arrow-back">
-                <img
-                  class="icon-arrow"
-                  src="assets/icon_arrow_backward.png"
-                  alt=""
-                />
+          <div class="col-md-3 col-sm-9 m-0">
+            <div class="row arrow">
+              <div class="col-3 col-xs-3 col-md-3">
+                <div
+                  class="col-sm-3 offset-sm-4 col-md-6 offset-md-2 rounded-circle main-color"
+                >
+                  <img
+                    src="assets/icon_arrow_backward.png"
+                    alt="icon_01"
+                    class="icons"
+                  />
+                </div>
               </div>
-              <div class="arrow-foward">
-                <img
-                  class="icon-arrow"
-                  src="assets/icon_arrow_forward.png"
-                  alt=""
-                />
+              <div class="col-3 col-xs-3 col-md-3">
+                <div
+                  class="col-sm-3 offset-sm-4 col-md-6 offset-md-2 rounded-circle main-color"
+                >
+                  <img
+                    src="assets/icon_arrow_forward.png"
+                    alt="icon_01"
+                    class="icons"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-4">
             <div class="card border-0">
@@ -340,14 +357,14 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 text-center">
+          <div class="col-md-4 text-center mb-5">
             <img class="gbr-doodle" src="assets/doodle_create.png" alt="" />
             <div class="desc-doodle">
               <h4>Create your site</h4>
               <p>Create an account to get started.</p>
             </div>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-md-4 text-center mb-5">
             <img class="gbr-doodle" src="assets/doodle_create.png" alt="" />
             <div class="desc-doodle">
               <h4>Create your site</h4>
@@ -369,29 +386,29 @@
     <section class="closing">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-9">
+          <div class="col-lg-12 col-md-12">
             <div class="closing-text text-center">
               <h2 class="mb-5">
-                The Is Closing Headline To Make A <br />
-                Impact For Call To Action
+                The Is Closing Headline To Make A Impact For Call To Action
               </h2>
-              <p class="mb-5 paragraf-h5">
+              <p class="paragraf-h5 mb-4">
                 Nowadays, it isn’t uncommon to see lenders rapidly adopting a
                 digital lending strategy to streamline the lending process
                 nowadays, it isn’t uncommon to see lenders rapidly
               </p>
             </div>
+            <div class="d-flex justify-content-center">
+              <button
+                type="button"
+                class="btn btn-lg"
+                onclick="location.href='index.html';"
+              >
+                Book A Meeting →
+              </button>
+            </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center">
-          <button
-            type="button"
-            class="btn btn-lg"
-            onclick="location.href='index.html';"
-          >
-            Book A Meeting →
-          </button>
-        </div>
+
         <div class="d-flex justify-content-center py-5">
           <div class="divider"></div>
         </div>
@@ -400,32 +417,32 @@
         >
           <img
             src="assets/Philips.png"
-            class="logo-perusahaan col md-2 col-sm-6 col-12"
+            class="logo-perusahaan col-md-2 col-sm-6 col-12"
             alt=""
           />
           <img
             src="assets/Logitech.png"
-            class="logo-perusahaan col md-2 col-sm-6 col-12"
+            class="logo-perusahaan col-md-2 col-sm-6 col-12"
             alt=""
           />
           <img
             src="assets/Amazon.png"
-            class="logo-perusahaan col md-2 col-sm-6 col-12"
+            class="logo-perusahaan col-md-2 col-sm-6 col-12"
             alt=""
           />
           <img
             src="assets/Facebook.png"
-            class="logo-perusahaan col md-2 col-sm-6 col-12"
+            class="logo-perusahaan col-md-2 col-sm-6 col-12"
             alt=""
           />
           <img
             src="assets/Google.png"
-            class="logo-perusahaan col md-2 col-sm-6 col-12"
+            class="logo-perusahaan col-md-2 col-sm-6 col-12"
             alt=""
           />
           <img
             src="assets/Linkedin.png"
-            class="logo-perusahaan col md-2 col-sm-6 col-12"
+            class="logo-perusahaan col-md-2 col-sm-6 col-12"
             alt=""
           />
         </div>
@@ -443,7 +460,7 @@
               Alterra Academy is HubSpot Theme Based On Engagement Design
               Framework, designed & developed by Openthrive.
             </p>
-            <button class="btn">
+            <button class="btn text-start">
               Button Next <i class="fa-solid fa-arrow-right-long"></i>
             </button>
           </div>
