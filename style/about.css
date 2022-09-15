@@ -120,6 +120,7 @@ body {
     padding: 15px 25px 0px 25px;
     font-size: 16px;
     font-weight: 500;
+
 }
 
 .about-container-2 {
@@ -158,18 +159,15 @@ body {
     gap: 1rem;
   }
   .icons {
-    width: 2rem;
-    height: 2rem;
-  }
-  .icon-duotone {
-    width: 4rem;
-    height: 4rem;
+    height: 72px;
     background: #e7ebfc;
-    border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    padding:24px;
   }
+
   .content-column h4 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -183,6 +181,41 @@ body {
 
 .arrow-carousel {
     text-align: right;
+    align-items: center;
+}
+
+.arrow-text {
+    background-color: #e7ebfc;
+    border-radius: 50%;
+    padding:10px;
+    height: 46px;
+    width: 46px;
+    align-items: center;
+}
+
+.image-carousel {
+    max-height: 100%;
+    max-width: 100%;
+    align-items: center;
+    object-fit: contain;
+}
+
+.main-text-carousel {
+    font-size: 42px;
+    font-weight: 400;
+    color: #19345E;
+}
+
+.title-carousel {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+
+.muted-carousel {
+    font-size: 16px;
+    font-weight: 400;
+    color: #767676;
 }
 
 .about-container-5 {
