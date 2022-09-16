@@ -36,10 +36,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link "   href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="features.html">Features</a>
+              <a class="nav-link " href="features.html">Features</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
@@ -152,7 +152,7 @@
                 <div class="col-sm-3 offset-sm-4 col-md-6 offset-md-2 rounded-circle main-color ">
                      <img
                   class="icon-benefit"
-                  src="assets/icon_grid.png"
+                  src="assets/icon_heart.png"
                   alt="icon-fill"
                 />
                    </div>
@@ -171,7 +171,7 @@
                 <div class="col-sm-3 offset-sm-4 col-md-6 offset-md-2 rounded-circle main-color ">
                      <img
                   class="icon-benefit"
-                  src="assets/icon_grid.png"
+                  src="assets/icon_layers.png"
                   alt="icon-fill"
                 />
                    </div>
@@ -213,7 +213,7 @@
             <div class="row">
               <div class="col-3 col-xs-3 col-md-3 ">
                  <div class="col-sm-3 offset-sm-4 col-md-6 offset-md-2 rounded-circle main-color ">
-                   <img src="assets/icon_01.png" alt="icon_01" class="icons"> 
+                   <img src="assets/icon_02.png" alt="icon_01" class="icons"> 
                    </div> 
               </div>
               <div class="col-9 col-xs-9 col-md-9">
@@ -229,7 +229,7 @@
             <div class="row">
               <div class="col-3 col-xs-3 col-md-3 ">
                  <div class="col-sm-3 offset-sm-4 col-md-6 offset-md-2 rounded-circle main-color ">
-                   <img src="assets/icon_01.png" alt="icon_01" class="icons"> 
+                   <img src="assets/icon_03.png" alt="icon_01" class="icons"> 
                    </div> 
               </div>
               <div class="col-9 col-xs-9 col-md-9">
@@ -245,7 +245,7 @@
             <div class="row">
               <div class="col-3 col-xs-3 col-md-3 ">
                  <div class="col-sm-3 offset-sm-4 col-md-6 offset-md-2 rounded-circle main-color ">
-                   <img src="assets/icon_01.png" alt="icon_01" class="icons"> 
+                   <img src="assets/icon_04.png" alt="icon_01" class="icons"> 
                    </div> 
               </div>
               <div class="col-9 col-xs-9 col-md-9">
@@ -294,42 +294,57 @@
       </div>
     </section>
     <!-- end section -->
-    <section class="timeline">
+    <!-- timeline -->
+    <section class="timeline-vertical d-flex flex-column gap-sm-5 justify-content-center">
       <div class="container ">
         <h3>The process we follow</h3>
-        <div class="row timeline-steps  mt-5">
-          <div class="col-lg-3 col-md-3 timeline-step  ">
-            <div class="timeline-content mb-4">
-              <i class="fa fa-circle" style="font-size: 24px"></i>
-              <p class="border-dashed"></p>
 
-              <h4 class=" mt-3 mb-1">Ideate</h4>
-              <p class="mb-0 mb-lg-0">Turn your idea from concept to MVP</p>
+        <div class="timeline-steps row  mt-5">
+          <div class="col-sm-3 ideate d-flex flex-md-column gap-md-2">
+            <div class="timeline d-flex gap-sm-4 align-items-center">
+              <span class="circle rounded-circle "></span>
+              <span class="lines"></span>
             </div>
+            <div> <h4 class=" mt-1 mb-1">Ideate</h4>
+            <p class="mb-0 mb-lg-0">Turn your idea from concept to MVP</p>
           </div>
-          <div class="col-lg-3 col-md-3 timeline-step">
-            <div class="timeline-content mb-4">
-              <i class="fa fa-circle" style="font-size: 24px"></i>
-               <p class="border-dashed"></p>
-              <h4 class="mt-3 mb-1">Design</h4>
-              <p class=" text-muted mb-0 mb-lg-0">Sketch out the product to align the user needs</p>
-            </div>
+          
           </div>
-          <div class="col-lg-3 col-md-3 timeline-step">
-            <div class="timeline-content mb-4">
-              <i class="fa fa-circle" style="font-size: 24px"></i>
-               <p class="border-dashed"></p>
-              <h4 class=" mt-3 mb-1">Develop</h4>
-              <p class=" text-muted mb-0 mb-lg-0">Convert the designs into a live application</p>
+          
+            <div class="col-sm-3 design d-flex flex-md-column gap-md-2">
+            <div class="timeline d-flex align-items-center gap-sm-4">
+              <span class="circle rounded-circle"></span>
+              <span class="lines"></span>
             </div>
+            <div>
+               <h4 class=" mt-1 mb-1">Design</h4>
+            <p class="mb-0 mb-lg-0">Turn your idea from concept to MVP</p>
+            </div>
+          
           </div>
-          <div class="col-lg-3 col-md-3 timeline-step">
-            <div class="timeline-content">
-              <i class="fa fa-circle" style="font-size: 24px"></i>
-              <p class="border-dashed "></p>
-              <h4 class="mt-3 mb-1 ">Deploy</h4>
-              <p class="text-muted mb-0 mb-lg-0">Launching the application to the market</p>
+
+            <div class="col-sm-3 develop d-flex flex-md-column gap-md-2">
+            <div class="timeline d-flex align-items-center gap-sm-4">
+              <span class="circle rounded-circle"></span>
+              <span class="lines"></span>
             </div>
+            <div>
+               <h4 class=" mt-1 mb-1">Develop</h4>
+            <p class="mb-0 mb-lg-0">Turn your idea from concept to MVP</p>
+            </div>
+          
+          </div>
+
+            <div class="col-sm-3 deploy d-flex flex-md-column gap-md-2 ">
+            <div class="timeline d-flex align-items-center gap-sm-4">
+              <span class="circle rounded-circle"></span>
+            
+            </div>
+            <div>
+              <h4 class=" mt-1 mb-1">Deploy</h4>
+            <p class="mb-0 mb-lg-0">Turn your idea from concept to MVP</p>
+            </div>
+           
           </div>
         </div>
       </div>
@@ -405,7 +420,7 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-6 col-md-6">
             <img class="logo-footer" src="assets/logo-ALTA-v2@2x.png" alt="" />
             <h5>About Alterra Academy</h5>
             <p class="text-footer">
@@ -416,7 +431,7 @@
               Button Next <i class="fa-solid fa-arrow-right-long"></i>
             </button>
           </div>
-          <div class="col-6">
+          <div class="col-6 col-md-6 ">
             <div class="menu-list">
               <ul>
                 <li>Contact</li>
